@@ -1,0 +1,17 @@
+clone repo:
+git clone https://github.com/wolf3d/palmdev.git
+
+
+add to local repo:
+git add test.txt
+
+update index:
+git update-index
+
+commit to local repo:
+git commit -m "commit message"
+
+
+push to repo:
+git push git@github.com:wolf3d/palmdev.git
+
