@@ -1,27 +1,25 @@
-Readme file for Symbol Palm Terminal SDK Version 2.00 
+##Readme file for Symbol Palm Terminal SDK Version 2.00 
 
-CONTENTS:
+###CONTENTS:
 
-1.0 Purpose of this release
-2.0 Directory structure of the Symbol Scanner SDK
-3.0 About the files in each subdirectory
-4.0 Special notes for this release
+####1.0 Purpose of this release
+####2.0 Directory structure of the Symbol Scanner SDK
+####3.0 About the files in each subdirectory
+####4.0 Special notes for this release
 
-======================================================================
-1.0 Purpose of this release
+
+#####1.0 Purpose of this release
 
 This release of the Symbol Scanner SDK is provided for use with 
 version 3.0 of the Palm OS. It contains the SPT SDK files and
-sample application code.  The files contained in this SDK release
-are subject to change.
-======================================================================
-1.1 Readme files
+sample application code. The files contained in this SDK release are subject to change.
+
+#####1.1 Readme files
 
 See the individual readme files for printing, for the magnetic stripe
-reader (msr) and for Spectrum24 (S24) to learn more about each
-of these products.
-======================================================================
-2.0  Directory structure of the Symbol Scanner SDK
+reader (msr) and for Spectrum24 (S24) to learn more about each of these products.
+
+#####2.0  Directory structure of the Symbol Scanner SDK
 
 Symbol SDK  		-  The main ScanManager directory
 Symbol SDK\Document	-  Documentation in PDF format
@@ -33,10 +31,10 @@ Symbol SDK\Sample	-  Source for the SPT, printer, MSR
 Symbol SDK\Host Tools
 		\msr	-  Host MSR configurator
 
-======================================================================
-3.0 About the files in each sub directory
 
-3.1 Symbol SDK\Document
+#####3.0 About the files in each sub directory
+
+#####3.1 Symbol SDK\Document
 
 The following documentation is included:
 
@@ -63,13 +61,13 @@ provides an overview of Spectrum24 wireless operation and information
 about the Spectrum24 library functions that can be used by developers
 for the SPT 1740.
 
-3.2 Symbol SDK\Lib
+#####3.2 Symbol SDK\Lib
 The ScanMgr.lib file is linked with your source code and provides the 
 interface to the Scan Manager Shared Library.  PtStatic.lib is the 
 shared library that must be linked with your source code for printing. 
 The library, SPT1740.lib, must be used for Spectrum24.
 
-3.3 Symbol SDK\prc
+#####3.3 Symbol SDK\prc
 The file MsrMgrLib.prc is the shared library needed for use and control 
 of the MSR 3000.  
 
@@ -77,7 +75,7 @@ The two pdb files are used for printing. These two files, Printcap.pdb
 and ptDynLib.pdb must be HotSynced onto the SPT for printing, along with
 the user application or PrintSample.prc (See sample subdirectory).
 
-3.4 Symbol SDK\Sample
+#####3.4 Symbol SDK\Sample
 Source for the ScanDemo and SimpleScan applications. These applications
 are supplied to help developers create scan aware applications using the 
 Metrowerks Codewarrior IDE. It is expected that portions of this sample 
@@ -99,12 +97,7 @@ information about the SPT Magnetic Stripe Reader.
 
 Examples for Spectrum24 code are provided in the S24 Samples Directory. 
 
-======================================================================
-4.0 Special notes for this release
 
-4.1 Users should be able to generate the sample code for all demos
-using Metrowerks CodeWarrior.
+#####4.0 Special notes for this release
 
-
- 
-======================================================================
+#####4.1 Users should be able to generate the sample code for all demos using Metrowerks CodeWarrior.
