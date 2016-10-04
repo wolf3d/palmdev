@@ -1,4 +1,4 @@
-Readme file for Symbol Palm Terminal SDK Version 2.00 
+###Readme file for Symbol Palm Terminal SDK Version 2.00 
 
 CONTENTS:
 
@@ -7,14 +7,13 @@ CONTENTS:
 3.0 About the files in each subdirectory
 4.0 Special notes for this release
 
-======================================================================
+
 1.0 Purpose of this release
 
 This release of the Symbol Scanner SDK is provided for use with 
 version 3.0 of the Palm OS. It contains the SPT SDK files and
-sample application code.  The files contained in this SDK release
-are subject to change.
-======================================================================
+sample application code. The files contained in this SDK releaseare subject to change.
+
 1.1 Readme files
 
 See the individual readme files for printing, for the magnetic stripe
